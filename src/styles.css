@@ -1,0 +1,49 @@
+h1 {
+  color: wheat;
+  font-weight: bold;
+  font-size: 70px;
+}
+h2 {
+  color: rgb(168, 168, 211);
+  font-weight: bold;
+  font-size: 20px;
+}
+h3 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 20px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: 100% url(image/cloads.jpg);
+}
+.card {
+  color: black(40, 12, 66);
+  position: relative;
+  padding: 10px;
+  left: 600px;
+  top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background: 100% url(image/crop.jpg);
+}
+.img {
+  position: absolute;
+}
+.city {
+  position: relative;
+  padding: 0px;
+  left: 80px;
+  top: 100px;
+}
+.row {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 200px;
+  left: 400px;
+}
+.fa-solid {
+  font-size: 50px;
+}

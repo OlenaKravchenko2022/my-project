@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d0a3e41919.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>WeatherForcast</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="overview">
+        <h1 id="city">Kyiv</h1>
+        <ul>
+          <li>Last updated: <span id="date"></span></li>
+          <li id="description"></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="clearfix weather-temperature">
+            <img
+              src="src/"              alt="Clear"
+              id="icon"
+              class="float-left"
+              width="100"
+            />
+            <div class="float-left">
+              <strong id="temperature"></strong>
+              <span class="units">
+                <a href="#" id="celsius-link" class="active">°C</a>|<a
+                  href="#"
+                  id="fahrenheit-link"
+                  >℉</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul class="feels">
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span> m/h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <h2></h2>
+      <h3 id="temperature"></h3>
+      <p class="city">
+        <form id="search-form">
+            <input
+              type="text"
+              placeholder="Search for a city"
+              autocomplete="off"
+              autofocus="on"
+              id="search-text-input"
+            />
+            <input type="submit" value="Search"/>
+         </form>
+        </p>
+        <button id="current">current weather</button>
+        <div class="card" style="width: 18rem;">
+          <i class="fa-solid fa-sun"></i>
+        <div class="card-body">
+          <p class="card-text">
+            Mon 23<br />
+            18℃/7℃<br />
+            humidity 24%
+          </p>
+        </div>
+      </div>
+      <img class="img" src="image/weather.jpg" alt="" width="400" />
+      <div class="card" style="width: 18rem;">
+        <i class="fa-solid fa-sun"></i>
+        <div class="card-body">
+          <p class="card-text">
+            Tue 24<br />
+            20℃/9℃<br />
+            humidity 1%
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <i class="fa-solid fa-cloud-sun"></i>
+        <div class="card-body">
+          <p class="card-text">
+            Wed 25 <br />24℃/13℃<br />
+            humidity 7%
+          </p>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;">
+        <i class="fa-solid fa-cloud-bolt"></i>
+        <div class="card-body">
+          <p class="card-text">
+            Thu 26 <br />23℃/13℃<br />
+            humidity 73%
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <i class="fa-solid fa-cloud-sun"></i>
+        <div class="card-body">
+          <p class="card-text">
+            Fri 27 22℃/13℃<br />
+            humidity 24%
+          </p>
+        </div>
+      </div>
+      
+    </div>
+       <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 h1 {
-  color: wheat;
+  color: black;
   font-weight: bold;
   font-size: 70px;
 }
@@ -9,13 +9,13 @@ h2 {
   font-size: 20px;
 }
 h3 {
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
   font-size: 20px;
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background: 100% url(image/cloads.jpg);
+  background: no-repeat center/100% url(image/cloads.jpg);
 }
 .card {
   color: black(40, 12, 66);
@@ -37,12 +37,12 @@ body {
   top: 100px;
 }
 .row {
-  color: white;
+  color: black;
   font-size: 40px;
   font-weight: bold;
   position: relative;
-  top: 200px;
-  left: 400px;
+  top: 50px;
+  left: 500px;
 }
 .fa-solid {
   font-size: 50px;
